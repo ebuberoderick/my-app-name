@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.body{
+  margin: 0px auto;
+  max-width: 800px;
+  padding: 10px;
+}
+.todoCard{
+  position: relative;
+  border: 1px solid gray;
+  margin-top: 7px;
+  padding: 4px;
+  border-radius: 9px;
+  margin: 0px auto;
+  max-width: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.todoText{
+  flex-grow: 1;
+  font-size: small;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.doneBtn{
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 9px;
+  text-transform: uppercase;
+}
+.btn-color1{
+  background-color: #1a7719;
+  color: aliceblue;
+  cursor: pointer;
+}
+.btn-color2{
+  background-color: #b0b3b0;
+  pointer-events: none;
 }
